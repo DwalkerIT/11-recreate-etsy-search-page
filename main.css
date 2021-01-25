@@ -1,0 +1,100 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  width: 100%;
+}
+
+.products {
+  width: 300px;
+  margin: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title {
+  font-size: medium;
+  font-weight: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.search {
+  height: 20px;
+  width: 500px;
+  border: 2px solid black;
+}
+
+.product-bg {
+  /* background-size: cover; */
+  height: 200px;
+  width: 100%;
+}
+
+.product-item img {
+  width: 100%;
+}
+
+.title {
+  font-family: "Graphik Webfont", -apple-system, BlinkMacSystemFont, "Roboto",
+    "Droid Sans", "Segoe UI", "Helvetica", Arial, sans-serif;
+  font-size: 14px;
+}
+
+.nav {
+  position: relative;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.bottom {
+  postion: absolute;
+  padding: 30px;
+  background: whitesmoke;
+  display: none;
+  left: 0;
+  right: 0;
+  background: whitesmoke;
+  border: 1px solid red;
+}
+
+.container:hover .bottom {
+  display: block;
+}
+.first-right {
+    display: none;
+}
+
+.right-side {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bottom-item-right {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.bottom-item:hover .bottom-item-right {
+    display: block;
+}
+
+#items .item {
+    padding-right: 20px;
+}

@@ -4,11 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Etsy Page</title>
+    <link rel="stylesheet" href="main.css" />
+    `
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    `
   </head>
   <body>
-    <div id="main-container"></div>
-    <div id="nav-bar"></div>
-    <div id="items-container"></div>
-    <div id="footer"></div>
+    <nav class="nav">
+    <h2>Etsy Page</h2>
+    <nav id="nav">
+      <div>
+        <ul id="items"></ul>
+      </div>
+      <div>
+        <input class="search" type="text" />
+      </div>
+    </nav>
+    <div id="grid"></div>
+    <footer id="footer"></footer>
+    <script src="items.js"></script>
+    <script src="main.js"></script>
+    <script>
+      // const subMenu = ['Jewelry & Accessories', 'Clothing & Shoes', 'Home & Living', 'Wedding & Party', 'Toys & Entertainment', 'Art & Collectibles', 'Craft Suppllies', 'Gifts and Gift Cards']
+      // const subList = subMenu.map(item => {
+      //   return '<li class="item container">
+      //     ${item}
+      //     <div class ="bottom">
+      //       <div>
+      //         <ul>
+      //           <li class="bottom-item">
+      //             Accessories
+      //             <div id="firstRight"></div>
+      //             </li>
+      //             <li class="bottom-item">
+      //               Bags and Purses
+      //               <div class="bottom-item-right">
+      //                 <ul>
+      //                   <li>Hats and Caps</li>
+      //                   </ul>
+      //                   </div>
+      //                   </li>
+      //                   </ul>
+      //                   </div>
+      //                   </div>
+      //                   </li>'
+      // }).join('')
+    </script>
   </body>
 </html>
